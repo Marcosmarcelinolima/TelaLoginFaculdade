@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="lado_esquerdo">
+            <p>"Educação não é um aprendizado de fatos, mas sim um processo de transformação da mente." <span>Albert
+                    Einstein</span></p>
+        </div>
+
+
+        <div class="login-container">
+            <form class="login-form" action="/login" method="post">
+                <h1>Bem-vindo!</h1>
+                <p>Por favor, insira suas credenciais para aces ssar seu painel acadêmico.</p>
+
+
+                <label for="email">Insira seu endereço de e-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <div class="linha-senha">
+                    <label for="password">Senha:</label>
+                    <a href="/esqueci-senha">Esqueceu?</a>
+                </div>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Entrar</button>
+                <div class="cadastre_se_aqui">
+                    <p>Voce não tem uma conta?</p>
+                    <a target="_blank" href="/Cadastre_se_aqui.html">Cadastre-se aqui</a>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
