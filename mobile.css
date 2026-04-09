@@ -1,66 +1,49 @@
-@media (max-width: 768px) {
 
-    .container {
+@media (max-width: 768px){
+
+    .hero{
+        display: none;
+    }
+
+    .container,
+    .formulario{
+        height: 100vh;
+    }
+
+    .container > div,
+    .formulario > div{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .dashboard__container,
+    .menu__body{
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .menu__links{
+        display: none;
+    }
+
+    .card__body,
+    .card__progress,
+    .card__button{
+        width: 100%;
+        margin-left: 0;
+        padding-right: 0;
+    }
+
+
+    .card,
+    .card__group{
         flex-direction: column;
-        min-height: 100vh;
     }
 
-.lado_esquerdo {
+    .card__group .card{
         width: 100%;
-        height: 180px;
-        padding: 20px;
+        margin: 8px 0;
     }
 
-    .lado_esquerdo p {
-        font-size: 16px;
-        max-width: 100%;
-        margin-bottom: 0;
-    }
-
-    .lado_esquerdo p span {
-        font-size: 12px;
-        margin-top: 10px;
-    }
-
-    .lado_esquerdo {
-        display: none;
-    }
-
-    .login-container {
-        width: 100%;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;     /* centro vertical */
-        justify-content: center; /* centro horizontal */
-        padding: 20px;           /* padding normal */
-    }
-
-    .login-form {
-        width: 100%;
-        max-width: 460px;
-    }
-}
-
-@media (max-width: 768px) {
-    .lado_esquerdo {
-        width: 100%;
-        height: 180px;
-        padding: 20px;
-    }
-
-    .lado_esquerdo p {
-        font-size: 16px;
-        max-width: 100%;
-        margin-bottom: 0;
-    }
-
-    .lado_esquerdo p span {
-        font-size: 12px;
-        margin-top: 10px;
-    }
-}
-@media (max-width: 768px) {
-    .lado_esquerdo {
-        display: none;
-    }
 }
